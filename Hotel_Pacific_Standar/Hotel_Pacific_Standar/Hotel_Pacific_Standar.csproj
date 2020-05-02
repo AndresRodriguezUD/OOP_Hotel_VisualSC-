@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CA82E623-47FD-4801-8BB8-37CE1D12DDB1}</ProjectGuid>
+    <ProjectGuid>{A6ABCF3C-069C-4C18-A909-0029FF3AC7B5}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowsFormsApp1.Hotel</RootNamespace>
-    <AssemblyName>WindowsFormsApp1.Hotel</AssemblyName>
+    <RootNamespace>Hotel_Pacific_Standar</RootNamespace>
+    <AssemblyName>Hotel_Pacific_Standar</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,82 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Begin.cs">
+    <Compile Include="Menu_Principal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Begin.Designer.cs">
-      <DependentUpon>Begin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Diseño.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Diseño.Designer.cs">
-      <DependentUpon>Diseño.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Admin1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Admin1.Designer.cs">
-      <DependentUpon>Admin1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Cliente1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Cliente1.Designer.cs">
-      <DependentUpon>Cliente1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Recepcion.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Recepcion.Designer.cs">
-      <DependentUpon>Recepcion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Pagar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Pagar.Designer.cs">
-      <DependentUpon>Pagar.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Registro_Usuario.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Registro_Usuario.Designer.cs">
-      <DependentUpon>Registro_Usuario.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Nueva__Sucursal.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Nueva__Sucursal.Designer.cs">
-      <DependentUpon>Nueva__Sucursal.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Nuevo_Hotel.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Nuevo_Hotel.Designer.cs">
-      <DependentUpon>Nuevo_Hotel.cs</DependentUpon>
+    <Compile Include="Menu_Principal.Designer.cs">
+      <DependentUpon>Menu_Principal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Admin1.resx">
-      <DependentUpon>Admin1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Begin.resx">
-      <DependentUpon>Begin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Cliente1.resx">
-      <DependentUpon>Cliente1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Diseño.resx">
-      <DependentUpon>Diseño.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Nueva__Sucursal.resx">
-      <DependentUpon>Nueva__Sucursal.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Nuevo_Hotel.resx">
-      <DependentUpon>Nuevo_Hotel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Pagar.resx">
-      <DependentUpon>Pagar.cs</DependentUpon>
+    <EmbeddedResource Include="Menu_Principal.resx">
+      <DependentUpon>Menu_Principal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -133,12 +67,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Recepcion.resx">
-      <DependentUpon>Recepcion.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Registro_Usuario.resx">
-      <DependentUpon>Registro_Usuario.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1.Hotel
+namespace Hotel_Pacific_Standar
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace WindowsFormsApp1.Hotel
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Begin());
+            Application.Run(new Menu_Principal());
         }
     }
 }

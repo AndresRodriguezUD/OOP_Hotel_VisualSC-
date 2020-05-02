@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WindowsFormsApp1.Hotel.Properties
+namespace Hotel_Pacific_Standar.Properties
 {
 
 

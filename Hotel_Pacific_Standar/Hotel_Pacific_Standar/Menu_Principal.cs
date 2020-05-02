@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1.Hotel
+namespace Hotel_Pacific_Standar
 {
-    public partial class Pagar : Form
+    public partial class Menu_Principal : Form
     {
-        public Pagar()
+        public Menu_Principal()
         {
             InitializeComponent();
         }

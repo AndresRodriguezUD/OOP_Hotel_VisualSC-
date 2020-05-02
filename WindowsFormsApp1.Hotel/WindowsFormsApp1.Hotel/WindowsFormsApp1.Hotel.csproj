@@ -52,7 +52,6 @@
     <Compile Include="Begin.Designer.cs">
       <DependentUpon>Begin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cliente.cs" />
     <Compile Include="Diseño.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,8 +102,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Valorestadia.cs" />
-    <Compile Include="Valor_reserva.cs" />
     <EmbeddedResource Include="Admin1.resx">
       <DependentUpon>Admin1.cs</DependentUpon>
     </EmbeddedResource>

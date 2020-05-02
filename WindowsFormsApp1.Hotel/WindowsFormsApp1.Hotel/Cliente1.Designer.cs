@@ -44,8 +44,8 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.txt_TotalEstadía = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.btn_Cotizar_Total = new System.Windows.Forms.Button();
+            this.btnHide = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -191,16 +191,6 @@
             this.txt_TotalEstadía.Size = new System.Drawing.Size(100, 20);
             this.txt_TotalEstadía.TabIndex = 15;
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(96, 332);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 16;
-            this.button2.Text = "Atrás";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // btn_Cotizar_Total
             // 
             this.btn_Cotizar_Total.Location = new System.Drawing.Point(406, 268);
@@ -211,14 +201,24 @@
             this.btn_Cotizar_Total.UseVisualStyleBackColor = true;
             this.btn_Cotizar_Total.Click += new System.EventHandler(this.btn_Cotizar_Total_Click);
             // 
+            // btnHide
+            // 
+            this.btnHide.Location = new System.Drawing.Point(99, 334);
+            this.btnHide.Name = "btnHide";
+            this.btnHide.Size = new System.Drawing.Size(75, 23);
+            this.btnHide.TabIndex = 18;
+            this.btnHide.Text = "Atrás";
+            this.btnHide.UseVisualStyleBackColor = true;
+            this.btnHide.Click += new System.EventHandler(this.btnHide_Click);
+            // 
             // Cliente1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp1.Hotel.Properties.Resources.Cartagena;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnHide);
             this.Controls.Add(this.btn_Cotizar_Total);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.txt_TotalEstadía);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
@@ -260,7 +260,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox txt_TotalEstadía;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btn_Cotizar_Total;
+        private System.Windows.Forms.Button btnHide;
     }
 }

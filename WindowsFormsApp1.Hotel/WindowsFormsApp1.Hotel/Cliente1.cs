@@ -12,7 +12,7 @@ namespace WindowsFormsApp1.Hotel
 {
         public partial class Cliente1 : Form
     {
-        Valorestadia myValorestadia = new Valorestadia();
+        //Valorestadia myValorestadia = new Valorestadia();
         public Cliente1()
         {
             InitializeComponent();
@@ -26,12 +26,17 @@ namespace WindowsFormsApp1.Hotel
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Close();
+            
         }
 
         private void btn_Cotizar_Total_Click(object sender, EventArgs e)
         {
             //txt_TotalEstadía.Text = myValorestadia.CalcularAlojamiento();
+        }
+
+        private void btnHide_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
